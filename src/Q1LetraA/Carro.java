@@ -13,7 +13,6 @@ public class Carro {
     private boolean completo;
 
     public void listar() {
-        System.out.println("Informações do carro:");
         System.out.println("Código: " + this.codigo);
         System.out.println("Marca: " + this.marca);
         System.out.println("Cor: " + this.cor);
